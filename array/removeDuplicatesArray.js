@@ -16,3 +16,14 @@ for (let i = 0; i < array.length; i++) {
     }
 }
 console.log("Unique elements:", unique);
+
+const arr2 = [1,2,3,3,4,4];
+let uniqueValue = [];
+for(let i = 0; i <arr2.length; i++)
+{
+    if(!uniqueValue.includes(arr2[i]))
+    {
+        uniqueValue.push(arr2[i]);
+    }
+}
+console.log("includes method:", uniqueValue);
